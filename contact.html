@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="website icon" type="png" href="./img/logo.png" />
+    <link rel="stylesheet" href="./Font_awesome/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="/Style/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <link rel="stylesheet" href="./Style/Style.css" />
+  </head>
+  <body>
+    <div class="header shadow">
+      <div class="header_lg container d-lg-block d-none p-2">
+        <div class="row">
+          <div class="col-2 flex-items-center">
+            <a href="/index.html"
+              ><img class="logo_header img-fluid" src="./img/logo.png"
+            /></a>
+          </div>
+          <div class="col-10 d-flex align-items-center">
+            <ul class="menu_lg container-fluid ul-reset flex-items-between">
+              <li>
+                <a href="./index.html"
+                  ><i class="fa-solid fa-house-chimney"></i
+                ></a>
+              </li>
+              <li>
+                <a href="./blog.html">Giới thiệu</a>
+                <ul class="sub_menu_lg ul-reset">
+                  <li><a href="./blog.html">Về công ty</a></li>
+                  <li><a href="./blog.html">Chiến lược phát triển</a></li>
+                  <li><a href="./blog.html">Hệ thống quản trị</a></li>
+                </ul>
+              </li>
+              <li>
+                <a class="long_text_menu" href="./list_blog.html"
+                  >Hoạt động Doanh nghiệp</a
+                >
+                <ul class="sub_menu_lg ul-reset">
+                  <li><a href="./list_blog.html">Hoạt động trong nước</a></li>
+                  <li><a href="./list_blog.html">Hoạt động nước ngoài</a></li>
+                  <li><a href="./list_blog.html">Hoạt động từ thiện</a></li>
+                </ul>
+              </li>
+              <li><a href="./products.html">Sản phẩm</a></li>
+              <li><a href="./list_blog.html">Tin tức</a></li>
+              <li><a href="./list_blog.html">Tuyển dụng</a></li>
+              <li><a href="./list_blog.html">Đối tác</a></li>
+              <li><a href="./contact.html">Liên hệ</a></li>
+              <li>
+                <a class="show_search_lg" href="#search"
+                  ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="search_lg flex-items-center flex-column">
+          <h3>Tìm Kiếm</h3>
+          <form>
+            <input type="text" placeholder="Nhập từ khóa tìm kiếm" required />
+            <button type="submit">
+              <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <button class="close_search_lg"><i class="fa-solid fa-x"></i></button>
+        </div>
+      </div>
+      <div class="header_mb container-fluid d-lg-none d-block">
+        <div class="row">
+          <div class="col-4 d-flex align-items-center">
+            <div class="hamburger ms-2">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <div class="col-4 d-flex flex-items-center">
+            <a class="logo_bm" href="./index.html">
+              <img src="./img/logo.png"
+            /></a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <button class="show_search_mb me-3">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div class="menu_mb">
+          <ul>
+            <li>
+              <a href="./blog.html"> Giới thiệu </a>
+            </li>
+            <li class="sub_menu_mb">
+              <ul class="ul-reset">
+                <li><a href="./blog.html">Về công ty</a></li>
+                <li><a href="./blog.html">Chiến lược phát triển</a></li>
+                <li><a href="./blog.html">Hệ thống quản trị</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="long_text_menu" href="./list_blog.html"
+                >Hoạt động Doanh nghiệp</a
+              >
+            </li>
+            <li class="sub_menu_mb">
+              <ul class="ul-reset">
+                <li><a href="./list_blog.html">Hoạt động trong nước</a></li>
+                <li><a href="./list_blog.html">Hoạt động nước ngoài</a></li>
+                <li><a href="./list_blog.html">Hoạt động từ thiện</a></li>
+              </ul>
+            </li>
+            <li><a href="./products.html">Sản phẩm</a></li>
+            <li><a href="./list_blog.html">Tin tức</a></li>
+            <li><a href="./list_blog.html">Tuyển dụng</a></li>
+            <li><a href="./list_blog.html">Đối tác</a></li>
+            <li><a href="./contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div class="overlay"></div>
+        <div class="search_mb">
+          <form class="search_form_mb">
+            <input
+              class="search_input"
+              type="search"
+              placeholder="Nhập tìm kiếm bằng từ khóa..."
+              required
+            />
+            <button type="submit" class="btn_search_mb">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </form>
+          <button class="close_search_mb"><i class="fa-solid fa-x"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="title_top">
+      <div class="container">
+        <a href="./index.html"><i class="fa-solid fa-house-chimney"></i></a>
+        
+        <span>/ Liên Hệ</span>
+      </div>
+    <div class="container-lg container-fluid mt-4 mb-4">
+        <div class="row">
+            <div class="shadow col-lg-6">
+                <div class="container p-4 mb-4">
+                  <h3 class="title_form">NHẬP THÔNG TIN LIÊN HỆ</h3>
+                    <form action="/" class="contact_form">
+                        <div class="mb-3 mt-3">
+                            <label for="name" class="form-label">Họ và tên:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Nhập họ và tên" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Nhập email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Số điện thoại:</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Nhập số điện thoại" name="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mess" class="form-label">Lời nhắn:</label>
+                            <textarea cols="15" rows="2" class="form-control" id="mess" placeholder="Lời nhắn" name="mess"></textarea>
+                        </div>
+    
+                        <input type="submit" class="btn_contact  form-control" value="Gửi Ngay">
+                    </form>
+                </div>
+        </div>
+            <div class="col-lg-6 mt-lg-0 mt-4 d-flex flex-column">
+                <h3 class="title_form">
+                    HÃY ĐỂ CHÚNG TÔI ĐƯỢC
+                    ĐỒNG HÀNH CÙNG QUÝ KHÁCH
+                </h3>
+                <p>Cảm ơn đã ghé thăm website, vui lòng gọi ngay cho chúng tôi để câu trả lời nhanh nhất cho nhu cầu của anh chị cần nhé</p>
+                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.29619838441!2d105.74757277596258!3d21.02083118062653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134549c574476c3%3A0xd3c6af79105ea6da!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEPDtG5nIG5naOG7hyBDYW8gSMOgIE7hu5lp!5e0!3m2!1svi!2s!4v1725431043002!5m2!1svi!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                
+            </div>
+    
+        </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <img src="./img/logo.png" />
+        <div class="row">
+          <div class="col-lg-8">
+            <h5>
+              CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ XUẤT NHẬP KHẨU KOREA GREEN FOOD
+            </h5>
+            <p>
+              Số 22B6, Tổ 7, Phường Phúc Đồng, Quận Long Biên, Thành phố Hà Nộ
+            </p>
+            <ul class="ul-reset">
+              <li><a href="#a">Email:info@gmail.com</a></li>
+              <li><a href="#a">Hotline: 0828.155.255</a></li>
+              <li><a href="#a">Mã số thuế: 0109139923</a></li>
+              <li><a href="#a">CSKH: 0828.155.255</a></li>
+            </ul>
+            <img src="./img/logo-da-thong-bao-bo-cong-thuong-mau-xanh 2.png" />
+          </div>
+          <div class="col-lg-4 d-lg-block d-none">
+            <h5>thông tin</h5>
+            <ul class="ul-reset">
+              <li><a href="./blog.html">Giới thiệu</a></li>
+              <li><a href="./list_blog.html">Hoạt động doanh nghiệp</a></li>
+              <li><a href="./products.html">Sản phẩm</a></li>
+              <li><a href="./list_blog.html">Tin tức</a></li>
+              <li><a href="./list_blog.html">Tuyển dụng</a></li>
+              <li><a href="./list_blog.html">Đối tác</a></li>
+              <li><a href="./contact.html">Liên hệ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="list_social">
+      <ul class="ul-reset">
+        <li class="shadow">
+          <a href="#a"><img src="./img/facebook.png" /></a>
+        </li>
+        <li class="shadow">
+          <a href="#a"><img src="./img/youtube.png" /></a>
+        </li>
+        <li class="shadow">
+          <a href="#a"><img src="./img/zalo.png" /></a>
+        </li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="./Scripts/Style.js"></script>
+  </body>
+</html>
